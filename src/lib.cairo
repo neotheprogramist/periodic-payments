@@ -1,3 +1,6 @@
+pub mod erc20;
+pub mod periodic;
+
 /// Interface representing `HelloContract`.
 /// This interface allows modification and retrieval of the contract balance.
 #[starknet::interface]
